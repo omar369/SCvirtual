@@ -1,0 +1,149 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cubeta.066",
+            "rotation" : [
+                0.7070968151092529,
+                -0.0037551282439380884,
+                -0.0037551282439380884,
+                -0.7070968151092529
+            ],
+            "scale" : [
+                0.09017293155193329,
+                0.09017293900251389,
+                0.09314295649528503
+            ],
+            "translation" : [
+                6.404240131378174,
+                0.8910886645317078,
+                -2.0507540702819824
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "etiqueta J",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0.5462219715118408,
+                "roughnessFactor" : 0.5167322754859924
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh_0.066",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "VIN J T",
+            "uri" : "VIN%20J%20T.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 12184,
+            "max" : [
+                1.6128010749816895,
+                1.6032238006591797,
+                2.0782103538513184
+            ],
+            "min" : [
+                -1.5755223035812378,
+                -1.584823727607727,
+                -1.8058472871780396
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 12184,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 12184,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 19590,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 146208,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 146208,
+            "byteOffset" : 146208
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 97472,
+            "byteOffset" : 292416
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 39180,
+            "byteOffset" : 389888
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 429068,
+            "uri" : "scj.bin"
+        }
+    ]
+}
