@@ -1,0 +1,142 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cubeta.008",
+            "rotation" : [
+                -0.0037550972774624825,
+                -0.7070968151092529,
+                -0.7070968151092529,
+                0.0037550972774624825
+            ],
+            "scale" : [
+                0.09017293155193329,
+                0.09017293900251389,
+                0.09314295649528503
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "etiqueta PRO",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0.5462219715118408,
+                "roughnessFactor" : 0.5167322754859924
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh_0.008",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "VIN PRO T",
+            "uri" : "etiqueta-pro/VIN%20PRO%20T.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 12199,
+            "max" : [
+                1.6128010749816895,
+                1.6032238006591797,
+                2.0782103538513184
+            ],
+            "min" : [
+                -1.5755223035812378,
+                -1.584823727607727,
+                -1.8058472871780396
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 12199,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 12199,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 19590,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 93840,
+            "byteOffset" : 0
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 93840,
+            "uri" : "cubeta-pro.bin"
+        }
+    ]
+}
