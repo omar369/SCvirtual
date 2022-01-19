@@ -87,15 +87,14 @@ const stdrMat = new THREE.MeshStandardMaterial({
     displacementMap: disp,
     displacementScale: 0.1,
     metalnessMap: metal,
-    wireframe: false
-    
+    wireframe: true
   })
 
-const cube = new THREE.Mesh(
-  boxBuff,
-  stdrMat
-)
-scene.add(cube);
+// const cube = new THREE.Mesh(
+//   boxBuff,
+//   stdrMat
+// )
+// scene.add(cube);
 
 
 //MODELS
@@ -141,13 +140,9 @@ export const cleanUpScene = () => {
   currentRef.removeChild(renderer.domElement);
 };
 
-export const moveBuket = ()=>{
-  timeline.to(cube.position, {
-    y: -4,
-  })
-  .from(cube.rotation, {
-    y: Math.PI * 2,
-  }, '-=30.0')
-}
-
-moveBuket()
+// export const moveBuket = ()=>{
+//   timeline.from(cube.rotation, {
+//     y: Math.PI * 2,
+//   })
+// }
+// moveBuket()
