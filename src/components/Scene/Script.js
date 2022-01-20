@@ -69,26 +69,26 @@ scene.environment = eMap
 // scene.background = eMap
 
 // cube TEXTURES
-const textureloader = new THREE.TextureLoader()
-const map = textureloader.load('textures/eroded-stylized-cliff3-albedo.png')
-const ao = textureloader.load('textures/eroded-stylized-cliff3-ao.png')
-const norm = textureloader.load('textures/eroded-stylized-cliff3-normal-ogl.png')
-const disp = textureloader.load('textures/eroded-stylized-cliff3-height.png')
-const metal = textureloader.load('textures/eroded-stylized-cliff3-metallic.png')
-const rough = textureloader.load('textures/eroded-stylized-cliff3-roughness.png')
+// const textureloader = new THREE.TextureLoader()
+// const map = textureloader.load('textures/eroded-stylized-cliff3-albedo.png')
+// const ao = textureloader.load('textures/eroded-stylized-cliff3-ao.png')
+// const norm = textureloader.load('textures/eroded-stylized-cliff3-normal-ogl.png')
+// const disp = textureloader.load('textures/eroded-stylized-cliff3-height.png')
+// const metal = textureloader.load('textures/eroded-stylized-cliff3-metallic.png')
+// const rough = textureloader.load('textures/eroded-stylized-cliff3-roughness.png')
 
 //cube GEO
-const boxBuff = new THREE.SphereGeometry( 0.5, 64, 64)
-const stdrMat = new THREE.MeshStandardMaterial({
-    map: map,
-    aoMap: ao,
-    roughnessMap: rough,
-    normalMap: norm,
-    displacementMap: disp,
-    displacementScale: 0.1,
-    metalnessMap: metal,
-    wireframe: true
-  })
+// const boxBuff = new THREE.SphereGeometry( 0.5, 64, 64)
+// const stdrMat = new THREE.MeshStandardMaterial({
+//     map: map,
+//     aoMap: ao,
+//     roughnessMap: rough,
+//     normalMap: norm,
+//     displacementMap: disp,
+//     displacementScale: 0.1,
+//     metalnessMap: metal,
+//     wireframe: true
+//   })
 
 // const cube = new THREE.Mesh(
 //   boxBuff,
